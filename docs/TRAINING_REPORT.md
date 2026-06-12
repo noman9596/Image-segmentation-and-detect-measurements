@@ -17,8 +17,8 @@
 - Early stoping used just to overcome overfiitng
 
 ## Dataset
-- Training: 80 images
-- Validation: 21 images
+- Training: 70 images
+- Validation: 15 images
 - Test: 11 images
 
 ## Data Augmentation
