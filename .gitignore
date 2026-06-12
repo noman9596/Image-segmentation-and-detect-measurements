@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pth
+*.pkl
+*.egg-info/
+.env
+venv/
+env/
+*.ipynb_checkpoints
+models/weights/*.pth
+*.onnx
