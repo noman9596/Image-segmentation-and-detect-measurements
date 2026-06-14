@@ -1,0 +1,19 @@
+{
+  "architecture": "U-Net",
+  "encoder": "resnet34",
+  "encoder_weights": "imagenet",
+  "input_size": 512,
+  "epochs": 50,
+  "batch_size": 4,
+  "learning_rate": 0.0001,
+  "optimizer": "Adam",
+  "loss_function": "BCE + Dice",
+  "num_classes": 1,
+  "train_images": 80,
+  "val_images": 21,
+  "test_images": 11,
+  "test_iou": 0.8728,
+  "test_precision": 0.9561,
+  "test_recall": 0.8998,
+  "test_f1": 0.9271
+}
